@@ -1,0 +1,131 @@
+body {
+    margin:0;
+    height :100vh;
+}
+#contact {
+   text-align: center;
+}
+#contact h1 {
+    font-size: 35px;
+    font-family: 'Roboto',sans-serif;
+    margin-bottom: -60px;
+}
+#contact div.top {
+    background: blue;
+    color:blanchedalmond
+}
+#contact div.top h4 {
+    font-size: 30px;
+}
+#contact h1 {
+    color:rgb(0, 47, 255);
+}
+#contact1 {
+    text-align: center;
+    align-items: center;
+}
+#contact1 div.middle ul li {
+    display: flex;
+    list-style: none;
+}
+#contact1 div.middle {
+    padding-bottom: 50px;
+}
+#contact1 ul li {
+    list-style: none;
+}
+#contact1 ul {
+    display:flex;
+
+}
+#contact1 div.middle ul {
+    align-items: center;
+    text-align: center;
+    padding-left: 400px;
+    padding-top:30px;
+}
+#contact1 div.middle1 {
+    background:rgba(255, 0, 0, 0.74);
+    margin-top: -50px;
+    margin-bottom: -150px;
+    position:fixed;
+    z-index: 1;
+    padding-top: 20px;
+}
+#contact1 div.middle1 h3 {
+    font-size: 30px;
+}
+@media all and (max-width:980px) {
+    #contact1 div.middle ul {
+        align-items: center;
+        text-align: center;
+        padding-left: 250px;
+        padding-top:30px;
+    }
+    #contact1 div.middle {
+        padding-bottom: 10px;
+    }
+    #contact p {
+        font-size: 20px;
+    }
+    body {
+        height:80%;
+    }
+}
+@media all and (max-width:768px) {
+    #contact1 div.middle ul {
+        align-items: center;
+        text-align: center;
+        padding-left: 150px;
+        padding-top:30px;
+    }
+}
+@media all and (max-width:480px) {
+    #contact p {
+        font-size: 13px;
+        font-weight: 100px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    body {
+        overflow-x: hidden;
+        height:50%;
+    }
+    #contact div.top {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    #contact1 div.middle ul {
+        align-items: center;
+        text-align: center;
+        padding-left: 10px;
+        padding-top:30px;
+
+    }
+}
+@media all and (max-width:360px) {
+    #contact p {
+        font-size: 15px;
+        font-weight: 100px;
+        margin-right: 0;
+        margin-left: 0;
+    }
+    #contact1 div.middle ul li img {
+     height:50px;
+     width:70px;
+    }
+    #contact div.middle ul li img last-child{
+        width:10px;
+        height:10px;
+    }
+    #contact1 div.middle ul {
+        padding-left: 40px;
+    }
+}
+@media all and (max-width:320px) {
+    #contct p {
+    }
+    #contact1 div.middle ul {
+        padding-left: 10px;
+    }
+}
